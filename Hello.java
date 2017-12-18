@@ -1,9 +1,16 @@
 // This is the program to display Hello World
-
 class Hello
+{
+	public void display()
+	{
+		System.out.println("hello world");
+	}
+}
+public class TestHello
 {
 	public static void main(String [] ar)
 	{
-		System.out.println("Hello World!!");
+		Hello hello=new Hello();
+		hello.display();
 	}
 }
